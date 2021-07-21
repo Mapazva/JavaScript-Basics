@@ -8,6 +8,8 @@
   </head>
   <body>
     <script>
+      // task 1
+
       let question = prompt(
         "Какое «официальное» название JavaScript?",
         "answer"
@@ -17,6 +19,35 @@
       } else {
         alert("No!");
       }
+    </script>
+    <script>
+      //task 2
+      let number = prompt("введите число", "");
+
+      if (+number > 0) {
+        alert(1);
+      } else if (+number < 0) {
+        alert(-1);
+      } else {
+        alert(0);
+      }
+    </script>
+    <script>
+      // task 3
+      let result;
+      a + b < 4 ? (result = "мало") : (result = "много");
+    </script>
+    <script>
+      // task 4
+      let message;
+
+      login == "Сотрудник"
+        ? (message = "Привет")
+        : login == "Директор"
+        ? (message = "Здравствуйте")
+        : login == ""
+        ? (message = "Нет логина")
+        : (message = "");
     </script>
   </body>
 </html>
