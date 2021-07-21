@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // task 1
+      let age;
+      if (age >= 14 && age <= 90);
+    </script>
+    <script>
+      // task 2
+      let age;
+      if (age < 14 && age > 90);
+      if (!(age >= 14 && age <= 90));
+    </script>
+    <script>
+      // task 3
+      let login = prompt("Введите логин", "");
+      if (login === "Админ") {
+        let password = prompt("введите пароль", "");
+        if (password === "Я главный") {
+          alert("Здравствуйте!");
+        } else if (password === null) {
+          alert("Poka");
+        } else if (password !== "Я главный") {
+          alert("wrong password");
+        }
+      } else if (login === null) {
+        alert("Poka");
+      } else if (login !== "Админ") {
+        alert("i dont know you");
+      }
+    </script>
+  </body>
+</html>
